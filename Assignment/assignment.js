@@ -32,12 +32,33 @@
 //     i++;
 // }
 // Create a function that takes a positive integer as parameter and uses a while loop to calculate and return the factorial of that number.
-function takeValue(num1) {
-    if (num1 > 0) {
-        while (num1 > 0) {
-            console.log(`Print values ${num1}`);
-            num1--;
-        }
+// function takeValue(num1:number){
+//     if(num1 > 0){
+//         while(num1>0 ){
+//         console.log(`Print values ${num1}`)
+//         num1--;
+//     }
+// }
+// }
+// takeValue(10);
+// )  Write a program having an array of numbers if the number is negative it should remove the negative number from the array.
+// var numbers:number[]=[2,-7,11,-23,12]
+// let i = 0
+// while(i < numbers.length){
+//   let element = numbers[i]
+//   if(element>0){
+//     console.log(element);
+//   }
+//   i++
+// }
+// ) Create a function that takes an array of numbers as parameter. Use a while loop to calculate and return the sum of all the numbers in the array.
+function arrayNumber(numbers) {
+    var i = 0;
+    while (i < numbers.length) {
+        console.log(numbers[i]);
+        i++;
     }
+    console.log(numbers);
 }
-takeValue(10);
+// var giveArray:number[] = [3,6,-6,9]
+arrayNumber([3, 4, -9, 18]);
