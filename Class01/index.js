@@ -109,5 +109,5 @@ var division = num1 /= 10;
 console.log(division);
 var addition = num1 += 10;
 console.log(addition);
-// var subtraction = num1 *= 10;
+var subtraction = num1 *= 10;
 console.log(subtraction);
