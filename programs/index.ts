@@ -6,12 +6,18 @@
 
 // Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
 
-var getName:string = "ahmed";
+// var getName:string = "ahmed";
 
-var covertedUpper:string = getName.toUpperCase()
-var covertedLower:string = getName.toLowerCase()
-var capitalizeString = getName.charAt(0).toUpperCase() + getName.slice(1)
+// var covertedUpper:string = getName.toUpperCase()
+// var covertedLower:string = getName.toLowerCase()
+// var capitalizeString = getName.charAt(0).toUpperCase() + getName.slice(1)
 
-console.log(covertedUpper)
-console.log(covertedLower)
-console.log(capitalizeString)
+// console.log('UPPERCASE:',covertedUpper)
+// console.log('LowerCase',covertedLower)
+// console.log('capitalizeString',capitalizeString)
+
+ var getUserName = prompt('Enter Name')
+ alert(`Hey👋 ${getUserName}, I have started learning TypeScript`)
+ 
+
+
