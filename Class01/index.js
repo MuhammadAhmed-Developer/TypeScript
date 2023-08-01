@@ -39,5 +39,16 @@
 // var divisionResult:number = 32/4
 // console.log(divisionResult);
 // 8 ) Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
-var favoriteNumber = 111;
-console.log(`Your Favourite number is ${favoriteNumber}`);
+// var favoriteNumber:number =  111
+// console.log(`Your Favourite number is ${favoriteNumber}`)
+// 9 ) Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
+var names = ['Ahmed', 'Anas', 'Usman', 'Ali'];
+//  console.log(names[0]);
+//  console.log(names[1]);
+//  console.log(names[2]);
+//  console.log(names[3]);
+//  console.log(names[4]);
+for (let index = 0; index < names.length; index++) {
+    const items = names[index];
+    console.log(items);
+}
