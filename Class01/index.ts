@@ -129,3 +129,15 @@
 //         const element = guestList[i];
 //     console.log(`Dear ${element}, You are cordially invited to a dinner at my place. It would be an honor to have you join us.`);
 // }
+
+
+// Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
+
+var guestList: string[] = ['Ali', 'Ahmed', 'Sufyan', 'Raza'];
+// console.log(removeItem);
+guestList.pop()
+for (let i = 0; i > guestList.length; i++) {
+    const element = guestList[i];
+    console.log(`Sorry ${element} You can remove from dinner list`)
+    
+}

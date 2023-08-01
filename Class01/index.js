@@ -79,14 +79,22 @@
 //     const element = guestList[i];
 //     console.log(`Dear ${element} You are cordially invited to a dinner at my place. It would be an honor to have you join us.`)
 // }
-var guestList = ['Ali', 'Ahmed', 'GrandFather'];
-var endOfTheList = ['Zain', 'Ahmed Raza', 'Abu Bakar'];
-guestList.push(...endOfTheList);
-var centerOfTheList = ['Gullam Mustafa', 'Umar'];
-guestList.splice(3, 0, ...centerOfTheList);
-var firstOfTheArray = ['Sohil', 'Naveed'];
-guestList.unshift(...firstOfTheArray);
-for (let i = 0; i < guestList.length; i++) {
+// var guestList: string[] = ['Ali', 'Ahmed', 'GrandFather'];
+// var endOfTheList: string[] = ['Zain', 'Ahmed Raza', 'Abu Bakar'];
+// guestList.push(...endOfTheList);
+// var centerOfTheList:string[] = ['Gullam Mustafa', 'Umar']
+// guestList.splice(3,0,...centerOfTheList)
+// var firstOfTheArray:string[] = ['Sohil', 'Naveed']
+// guestList.unshift(...firstOfTheArray)
+// for (let i = 0; i < guestList.length; i++) {
+//         const element = guestList[i];
+//     console.log(`Dear ${element}, You are cordially invited to a dinner at my place. It would be an honor to have you join us.`);
+// }
+// Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
+var guestList = ['Ali', 'Ahmed', 'Sufyan', 'Raza'];
+// console.log(removeItem);
+for (let i = 4; i > guestList.length; i--) {
+    var removeItem = guestList.pop();
     const element = guestList[i];
-    console.log(`Dear ${element}, You are cordially invited to a dinner at my place. It would be an honor to have you join us.`);
+    console.log(`Sorry ${element} You can remove from dinner list`);
 }
