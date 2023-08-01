@@ -58,18 +58,47 @@
 
 // 9 ) Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
 
- var names:string[]= ['Ahmed', 'Anas', 'Usman', 'Ali'] 
+//  var names:string[]= ['Ahmed', 'Anas', 'Usman', 'Ali'] 
 //  console.log(names[0]);
 //  console.log(names[1]);
 //  console.log(names[2]);
 //  console.log(names[3]);
 //  console.log(names[4]);
 
- for (let index = 0; index < names.length; index++) {
-    const items = names[index];
-    console.log(items)
+//  for (let index = 0; index < names.length; index++) {
+//     const items = names[index];
+//     console.log(items)
     
- }
+//  }
  
+// 10 ) Greetings: Start with the array you used in Exercise 11, but instead of just printing each person’s name, print a message to them. The text of each message should be the same, but each message should be personalized with the person’s name.
+
+// var personName:string[] = ['Ali', 'Ahmed', 'Usman', 'Anas']
+// for (let index = 0; index < personName.length; index++) {
+//     const element = personName[index];
+//     console.log(`The ${index+1} Person is ${element} `)
+    
+// }
+
+// 11) Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
 
 
+// var companies:string[] = ['Honda', 'od', 'Toyota', 'rolls royce', 'BMW']
+// for (let i = 0; i < companies.length; i++) {
+//     const element = companies[i];
+//     console.log(`I love ${element} Cars and Bikes`);
+// }
+
+// 12 ) Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
+
+// var guestList:string[] = ['Ali', 'Ahmed', 'GrandFather']
+
+// for (let i = 0; i < guestList.length; i++) {
+//     const element = guestList[i];
+
+//     console.log(`Dear ${element} You are cordially invited to a dinner at my place. It would be an honor to have you join us.`)
+    
+// }
+
+
+// Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
