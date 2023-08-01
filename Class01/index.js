@@ -65,8 +65,28 @@
 //     console.log(`I love ${element} Cars and Bikes`);
 // }
 // 12 ) Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
+// var guestList:string[] = ['Ali', 'Ahmed', 'GrandFather']
+// for (let i = 0; i < guestList.length; i++) {
+//     const element = guestList[i];
+//     console.log(`Dear ${element} You are cordially invited to a dinner at my place. It would be an honor to have you join us.`)
+// }
+// Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+// var guestList:string[] = ['Ali', 'Ahmed', 'GrandFather']
+// for (let i = 0; i < guestList.length; i++) {
+//     var newList:string[] = ['Zain', 'Ahmed Raza', 'Abu Bakar']
+// //    var addEndOfArray:string[] = 
+//    guestList.push(newList)
+//     const element = guestList[i];
+//     console.log(`Dear ${element} You are cordially invited to a dinner at my place. It would be an honor to have you join us.`)
+// }
 var guestList = ['Ali', 'Ahmed', 'GrandFather'];
+var endOfTheList = ['Zain', 'Ahmed Raza', 'Abu Bakar'];
+guestList.push(...endOfTheList);
+var centerOfTheList = ['Gullam Mustafa', 'Umar'];
+guestList.splice(3, 0, ...centerOfTheList);
+var firstOfTheArray = ['Sohil', 'Naveed'];
+guestList.unshift(...firstOfTheArray);
 for (let i = 0; i < guestList.length; i++) {
     const element = guestList[i];
-    console.log(`Dear ${element} You are cordially invited to a dinner at my place. It would be an honor to have you join us.`);
+    console.log(`Dear ${element}, You are cordially invited to a dinner at my place. It would be an honor to have you join us.`);
 }

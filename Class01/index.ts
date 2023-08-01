@@ -102,3 +102,30 @@
 
 
 // Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+
+// var guestList:string[] = ['Ali', 'Ahmed', 'GrandFather']
+
+// for (let i = 0; i < guestList.length; i++) {
+//     var newList:string[] = ['Zain', 'Ahmed Raza', 'Abu Bakar']
+// //    var addEndOfArray:string[] = 
+//    guestList.push(newList)
+//     const element = guestList[i];
+//     console.log(`Dear ${element} You are cordially invited to a dinner at my place. It would be an honor to have you join us.`)
+    
+// }
+
+// var guestList: string[] = ['Ali', 'Ahmed', 'GrandFather'];
+
+// var endOfTheList: string[] = ['Zain', 'Ahmed Raza', 'Abu Bakar'];
+// guestList.push(...endOfTheList);
+
+// var centerOfTheList:string[] = ['Gullam Mustafa', 'Umar']
+// guestList.splice(3,0,...centerOfTheList)
+
+// var firstOfTheArray:string[] = ['Sohil', 'Naveed']
+// guestList.unshift(...firstOfTheArray)
+
+// for (let i = 0; i < guestList.length; i++) {
+//         const element = guestList[i];
+//     console.log(`Dear ${element}, You are cordially invited to a dinner at my place. It would be an honor to have you join us.`);
+// }
