@@ -133,11 +133,13 @@
 
 // Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
 
-var guestList: string[] = ['Ali', 'Ahmed', 'Sufyan', 'Raza'];
-// console.log(removeItem);
-guestList.pop()
-for (let i = 0; i > guestList.length; i++) {
-    const element = guestList[i];
-    console.log(`Sorry ${element} You can remove from dinner list`)
-    
-}
+
+  var guestList:string[] = ['Ali', 'Ahmed', 'Sufyan', 'Raza'];
+  var updated=  guestList.splice(-2)
+  console.log(updated);
+  
+  for (let index = 0; index < guestList.length; index++) {
+      const element = guestList[index];
+      console.log(`Dear ${element} You are invited`)
+    }
+    console.log(`Dear ${updated} sorry you can’t invite them to dinner. `)
