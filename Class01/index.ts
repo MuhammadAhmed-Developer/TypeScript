@@ -136,10 +136,14 @@
 
   var guestList:string[] = ['Ali', 'Ahmed', 'Sufyan', 'Raza'];
   var updated=  guestList.splice(-2)
-  console.log(updated);
+//   console.log(updated);
   
   for (let index = 0; index < guestList.length; index++) {
       const element = guestList[index];
-      console.log(`Dear ${element} You are invited`)
+    //   console.log(`Dear ${element} You are invited`)
     }
-    console.log(`Dear ${updated} sorry you can’t invite them to dinner. `)
+    // console.log(`Dear ${updated} sorry you can’t invite them to dinner. `)
+
+  // empty list
+  var emptyArray = updated.splice(2,updated.length)
+  console.log('emptyArray=>', emptyArray)  
