@@ -91,14 +91,23 @@
 //     console.log(`Dear ${element}, You are cordially invited to a dinner at my place. It would be an honor to have you join us.`);
 // }
 // Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
-var guestList = ['Ali', 'Ahmed', 'Sufyan', 'Raza'];
-var updated = guestList.splice(-2);
+// var guestList:string[] = ['Ali', 'Ahmed', 'Sufyan', 'Raza'];
+// var updated=  guestList.splice(-2)
 //   console.log(updated);
-for (let index = 0; index < guestList.length; index++) {
-    const element = guestList[index];
-    //   console.log(`Dear ${element} You are invited`)
-}
+// for (let index = 0; index < guestList.length; index++) {
+//     const element = guestList[index];
+//   console.log(`Dear ${element} You are invited`)
+// }
 // console.log(`Dear ${updated} sorry you can’t invite them to dinner. `)
 // empty list
-var emptyArray = updated.splice(2, updated.length);
-console.log(emptyArray);
+// var emptyArray = updated.splice(2,updated.length)
+// console.log('emptyArray=>', emptyArray)  
+var num1 = 30;
+var multiplication = num1 *= 10;
+console.log(multiplication);
+var division = num1 /= 10;
+console.log(division);
+var addition = num1 += 10;
+console.log(addition);
+var subtraction = num1 *= 10;
+console.log(subtraction);
