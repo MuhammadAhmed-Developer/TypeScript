@@ -22,7 +22,7 @@ console.log(area);
 // Exercise 4:   Write a program that checks if a given number is even or odd.
 
 var num1:number = 30
-if(num1/2){
+if(num1%2 == 0){
   console.log(`${num1} is a Even Number`);
   
 }else{
