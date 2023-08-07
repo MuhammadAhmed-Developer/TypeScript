@@ -33,13 +33,65 @@
 //     console.log(`${salePrice} is sale price with 5% Discount sale Price is ${Math.floor(give5perdiscount)} `)
 // }
 // 5) - Create a program that determines the category of a user-provided age. If the age is between 0 and 12, print "Child." If it's between 13 and 19, print "Teenager." Otherwise, print "Adult."
-var age = 20;
-if (age > 0 && age <= 12) {
-    console.log(`Your age is ${age} you are Child`);
+// var age:number =  20
+// if(age > 0 && age <= 12){
+//     console.log(`Your age is ${age} you are Child`);
+// }
+// else if(age >= 13 && age <=19 ){
+//    console.log('You are Teenager');
+// }else{
+//     console.log('You are Adult');
+// }
+// 6)  - Write a program that takes temperature and check it. If it is cold then suggest the user to wear warm clothes and so on according to the weather.
+var temperature = 10;
+if (temperature <= 15) {
+    console.log(`The weather is cold You can wear warm cloths`);
 }
-else if (age >= 13 && age <= 19) {
-    console.log('You are Teenager');
+else if (temperature >= 16 && temperature <= 30) {
+    console.log("weather is normal");
+}
+else if (temperature >= 31 && temperature <= 40) {
+    console.log('The weather is Hot ');
 }
 else {
-    console.log('You are Adult');
+    console.log('Qiyamat ki Nishani');
+}
+//   7) - Write a program that checks if the given number is  divisible by 3 or 5 or both or not divisible by anyone show output accordingly.
+//   var value:number = 40
+//    if(value%3 == 0  && value%5 == 0 ){
+//      console.log(`${value} is divided by 3 and 5`);
+//    }else{
+//     console.log(`${value} is Not divided by 3 and 5`);
+//    }
+//   8) - Write a program that checks if the given year is leap year or not.
+//    var year :number = 2024
+//    if(year%4 == 0 ){
+//      console.log(`${year} is a Leap Year`);
+//    }else{
+//     console.log(`${year} is not leap year`);
+//    }
+//    9)  - Develop a program that determines the day of the week. Ask the user for a number (1-7) and use nested if statements to print the corresponding day's name.
+var userNumber = 1;
+switch (userNumber) {
+    case 1:
+        console.log(`Its a Monday`);
+        break;
+    case 2:
+        console.log(`Its a Tuesday`);
+        break;
+    case 3:
+        console.log(`Its a Wednesday`);
+        break;
+    case 4:
+        console.log(`Its a Thursday`);
+        break;
+    case 5:
+        console.log(`Its a Friday`);
+        break;
+    case 6:
+        console.log(`Its a Saturday`);
+        break;
+    default:
+        console.log('Its a Sunday');
+        break;
 }
