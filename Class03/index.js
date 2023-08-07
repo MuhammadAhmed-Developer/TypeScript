@@ -43,19 +43,18 @@
 //     console.log('You are Adult');
 // }
 // 6)  - Write a program that takes temperature and check it. If it is cold then suggest the user to wear warm clothes and so on according to the weather.
-var temperature = 10;
-if (temperature <= 15) {
-    console.log(`The weather is cold You can wear warm cloths`);
-}
-else if (temperature >= 16 && temperature <= 30) {
-    console.log("weather is normal");
-}
-else if (temperature >= 31 && temperature <= 40) {
-    console.log('The weather is Hot ');
-}
-else {
-    console.log('Qiyamat ki Nishani');
-}
+//   var temperature:number = 10
+//   if(temperature <= 15){
+//     console.log(`The weather is cold You can wear warm cloths`);
+//   }
+//   else if(temperature >= 16 && temperature <=30){
+//      console.log("weather is normal");
+//   }
+//   else if(temperature >=31 && temperature <=40 ){
+//     console.log('The weather is Hot ');
+//   }else{
+//     console.log('Qiyamat ki Nishani');
+//   }
 //   7) - Write a program that checks if the given number is  divisible by 3 or 5 or both or not divisible by anyone show output accordingly.
 //   var value:number = 40
 //    if(value%3 == 0  && value%5 == 0 ){
@@ -71,27 +70,46 @@ else {
 //     console.log(`${year} is not leap year`);
 //    }
 //    9)  - Develop a program that determines the day of the week. Ask the user for a number (1-7) and use nested if statements to print the corresponding day's name.
-var userNumber = 1;
-switch (userNumber) {
-    case 1:
-        console.log(`Its a Monday`);
-        break;
-    case 2:
-        console.log(`Its a Tuesday`);
-        break;
-    case 3:
-        console.log(`Its a Wednesday`);
-        break;
-    case 4:
-        console.log(`Its a Thursday`);
-        break;
-    case 5:
-        console.log(`Its a Friday`);
-        break;
-    case 6:
-        console.log(`Its a Saturday`);
-        break;
-    default:
-        console.log('Its a Sunday');
-        break;
+//    var userNumber:number = 1
+//    switch (userNumber ) {
+//     case 1:
+//         console.log(`Its a Monday`);
+//         break;
+//     case 2:
+//         console.log(`Its a Tuesday`);
+//         break;
+//     case 3:
+//         console.log(`Its a Wednesday`);
+//         break;
+//     case 4:
+//         console.log(`Its a Thursday`);
+//         break;
+//     case 5:
+//         console.log(`Its a Friday`);
+//         break;
+//     case 6:
+//         console.log(`Its a Saturday`);
+//         break;
+//     default:
+//         console.log('Its a Sunday');
+//         break;
+//    }
+// 10)- Write a program that takes the number of units consumed by a user if it is greater than 100 then add 10% tax if greater than 200 then add 15% of tax so on up to if greater than 500 then add 25% of tax
+// Where the tax amount will be calculated by the amount of bill.
+var numberOfUnits = 100;
+var priceOfOneUnit = 27;
+if (numberOfUnits >= 100 && numberOfUnits < 200) {
+    var calculated = (numberOfUnits * priceOfOneUnit);
+    var bill = calculated + (10 / 100) * calculated;
+    console.log(`Your total units is ${numberOfUnits}, and your total bill is ${bill} with 10% tax.`);
+}
+else if (numberOfUnits >= 200 && numberOfUnits < 500) {
+    var calculated = (numberOfUnits * priceOfOneUnit);
+    var bill = calculated + (15 / 100) * calculated;
+    console.log(`Your total units is ${numberOfUnits}, and your total bill is ${bill} with 15% tax.`);
+}
+else {
+    var calculated = (numberOfUnits * priceOfOneUnit);
+    var bill = calculated + (25 / 100) * calculated;
+    console.log(`Your total units is ${numberOfUnits}, and your total bill is ${bill} with 25% tax.`);
 }
