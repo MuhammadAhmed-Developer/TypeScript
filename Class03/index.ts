@@ -112,7 +112,6 @@ else if(age >= 13 && age <=19 ){
     case 2:
         console.log(`Its a Tuesday`);
         break;
-   
     case 3:
         console.log(`Its a Wednesday`);
         break;
