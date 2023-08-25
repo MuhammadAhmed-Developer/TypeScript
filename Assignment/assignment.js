@@ -54,11 +54,13 @@
 // ) Create a function that takes an array of numbers as parameter. Use a while loop to calculate and return the sum of all the numbers in the array.
 function arrayNumber(numbers) {
     var i = 0;
+    var sum = 0;
     while (i < numbers.length) {
-        console.log(numbers[i]);
+        sum = sum + numbers[i];
         i++;
     }
-    console.log(numbers);
+    console.log(sum);
+    return sum;
 }
-// var giveArray:number[] = [3,6,-6,9]
-arrayNumber([3, 4, -9, 18]);
+var result = arrayNumber([1, 2, 3, 4, 5]);
+console.log(result);
