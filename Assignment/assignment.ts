@@ -11,18 +11,18 @@
 
 //2)  Implement a simple shopping cart program using an array. Create functions to add items, remove items, and update quantities using the splice method. Print the cart's contents after each operation
 
-// var cartProgram: String[] = [];
+var cartProgram: String[] = [];
 
-// function addProducts() {
-//     cartProgram.splice(0, 0, "Shirt", "Glasses")
-//     console.log(`add 2product=> ${cartProgram}`)
-//     cartProgram.splice(1, 1)
-//     console.log(`Delete Product=> ${cartProgram}`)
-//     cartProgram.splice(1, 1, "Apple")
-//     console.log(`Update Product=> ${cartProgram}`)
+function addProducts() {
+    cartProgram.splice(0, 0, "Shirt", "Glasses")
+    console.log(`add 2product=> ${cartProgram}`)
+    cartProgram.splice(1, 1)
+    console.log(`Delete Product=> ${cartProgram}`)
+    cartProgram.splice(1, 1, "Apple")
+    console.log(`Update Product=> ${cartProgram}`)
 
-// }
-// addProducts();
+}
+addProducts();
 
 // 3)Write a program that uses a while loop to print the first 25 integers
 
@@ -74,18 +74,29 @@
 // ) Create a function that takes an array of numbers as parameter. Use a while loop to calculate and return the sum of all the numbers in the array.
 
 
-function arrayNumber(numbers: number[]) {
-    var i = 0;
-    var sum = 0
-    while (i < numbers.length) {
-        sum = sum + numbers[i];
-        i++;
-        }
-        return sum;
-    }
-var result = arrayNumber([1,2,3,4,5])
-console.log(result)
+// function arrayNumber(numbers: number[]) {
+//     var i = 0;
+//     var sum = 0
+//     while (i < numbers.length) {
+//         sum = sum + numbers[i];
+//         i++;
+//         }
+//         return sum;
+//     }
+// var result = arrayNumber([1,2,3,4,5])
+// console.log(result)
 
 
+// ) - Implement a program that takes a list of temperatures in Celsius as input from the user. Convert each temperature to Fahrenheit using the formula F = (C * 9/5) + 32 and store the converted temperatures in an array. Use a while loop to perform the conversion for each temperature.
 
+let Ctemp:number[] = [20, 30, 36, 39]
+let Ftem:number[] = []
+ var i = 0
+while(i<Ctemp.length){
+  var ConvertF = (Ctemp[i] * 9/5) + 32
+//   console.log(ConvertF);
+Ftem.push(ConvertF)
+console.log(Ctemp[i],"C = ",Ftem[i],"F");
+   i++
+}
 
