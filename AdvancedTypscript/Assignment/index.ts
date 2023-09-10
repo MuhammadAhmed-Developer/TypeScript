@@ -93,17 +93,36 @@
       
 //   }
  
+
+// /14_/ Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
+
+//   function inviteGuest(list:String[]) {
+//      for(const guest of list){
+//         console.log("Hello " + guest + " Please come to our party");
+//      }
+//   }
+
+//  let giestList = ['Ali', 'Ahmed', 'Zain']
+//   let result = inviteGuest(giestList)
+
+// 15)// Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+
+//A) Start with your program from Exercise 14. Add a print statement at the end of your program stating the name of the guest who can’t make it.
+
+
+
+// 16) More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
+//a: Add one new guest to the beginning of your array.
+
+var guestlist:String[]= ["Ali","Ahmed","Zain","Hamid","Farooq","Anas"]
+
+guestlist.unshift('Raza')//adding Raza
+for(const guest of guestlist){
+    console.log(`${guest} You are inviting for Dinner`);
+}
+
+
  
-
-
-
-
-
-
-
-
-
-
 
 
 

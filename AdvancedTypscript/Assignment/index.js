@@ -53,10 +53,27 @@
 //     console.log(`How are You ${name} ?`);
 //     }
 // 13) Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
-let favouriteTransportation = ['Honda', 'OD', 'BMW'];
-for (const company of favouriteTransportation) {
-    if (company.includes('OD'))
-        console.log(`I Love ${company} car`);
+//  let favouriteTransportation = ['Honda','OD', 'BMW']
+//   for(const company of favouriteTransportation){
+//      if(company.includes('OD'))
+//       console.log(`I Love ${company} car`);
+//   }
+// /14_/ Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
+//   function inviteGuest(list:String[]) {
+//      for(const guest of list){
+//         console.log("Hello " + guest + " Please come to our party");
+//      }
+//   }
+//  let giestList = ['Ali', 'Ahmed', 'Zain']
+//   let result = inviteGuest(giestList)
+// 15)// Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+//A) Start with your program from Exercise 14. Add a print statement at the end of your program stating the name of the guest who can’t make it.
+// 16) More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
+//a: Add one new guest to the beginning of your array.
+var guestlist = ["Ali", "Ahmed", "Zain", "Hamid", "Farooq", "Anas"];
+guestlist.unshift('Raza');
+for (const guest of guestlist) {
+    console.log(`${guest} You are inviting for Dinner`);
 }
 // 35) Animals: Think of at least three different animals that have a common characteristic. Store the names of these animals in a list, and then use a for loop to print out the name of each animal. • Modify your program to print a statement about each animal, such as A dog would make a great pet. • Add a line at the end of your program stating what these animals have in common. You could print a sentence such as Any of these animals would make a great pet!
 // let animalChar = [
