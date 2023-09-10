@@ -23,10 +23,41 @@
 //   let strippedName = stripWhitespace(username);
 //   console.log("Name without whitespace:", strippedName);
 // 5) Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
-console.log("Addition = >", 5 + 3);
-console.log("Subtraction = >", 11 - 3);
-console.log("Multipication = >", 4 * 2);
-console.log("Division = >", 8 / 1);
+//    console.log("Addition = >", 5+ 3)
+//    console.log("Subtraction = >", 11- 3)
+//    console.log("Multipication = >", 4 * 2)
+//    console.log("Division = >", 8 /1)
+// 6) You should create four lines that look like this:
+// console.log(5 + 3)
+// Your output should simply be four lines with the number 8 appearing once on each line
+// var num: number = 5 + 3;
+// var count: number = 0; 
+// for (let index = 1; count < 4; index--) { 
+//     if (num > 4) {
+//         console.log(num);
+//         console.log("===================================================================================");
+//         count++; 
+//     }
+// }
+// 9) Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
+//   var favNumber = 49
+//   console.log(`${favNumber} is my Favoueite Number`);
+// 11)Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
+// let firensa = ["Ali", "Ahmed", "Zain", "Azeem"]
+//   for(let i = 0; i<firensa.length; i++){
+//        console.log(firensa[i])
+//   }
+// 12) Greetings: Start with the array you used in Exercise 11, but instead of just printing each person’s name, print a message to them. The text of each message should be the same, but each message should be personalized with the person’s name.
+//  let firendList = ["Ali", "Ahmed", "Zain", "Azeem"]
+//  for (const name of firendList){
+//     console.log(`How are You ${name} ?`);
+//     }
+// 13) Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
+let favouriteTransportation = ['Honda', 'OD', 'BMW'];
+for (const company of favouriteTransportation) {
+    if (company.includes('OD'))
+        console.log(`I Love ${company} car`);
+}
 // 35) Animals: Think of at least three different animals that have a common characteristic. Store the names of these animals in a list, and then use a for loop to print out the name of each animal. • Modify your program to print a statement about each animal, such as A dog would make a great pet. • Add a line at the end of your program stating what these animals have in common. You could print a sentence such as Any of these animals would make a great pet!
 // let animalChar = [
 //     {

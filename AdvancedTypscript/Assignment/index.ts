@@ -47,19 +47,53 @@
 
 // Your output should simply be four lines with the number 8 appearing once on each line
 
+// var num: number = 5 + 3;
+// var count: number = 0; 
+
+// for (let index = 1; count < 4; index--) { 
+//     if (num > 4) {
+//         console.log(num);
+//         console.log("===================================================================================");
+//         count++; 
+//     }
+// }
 
 
 
 
+// 9) Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
+    
+//   var favNumber = 49
+//   console.log(`${favNumber} is my Favoueite Number`);
+  
 
 
+// 11)Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
+
+// let firensa = ["Ali", "Ahmed", "Zain", "Azeem"]
+
+//   for(let i = 0; i<firensa.length; i++){
+//        console.log(firensa[i])
+//   }
+
+// 12) Greetings: Start with the array you used in Exercise 11, but instead of just printing each person’s name, print a message to them. The text of each message should be the same, but each message should be personalized with the person’s name.
+
+//  let firendList = ["Ali", "Ahmed", "Zain", "Azeem"]
+//  for (const name of firendList){
+//     console.log(`How are You ${name} ?`);
+//     }
 
 
+// 13) Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
 
-
-
-
-
+//  let favouriteTransportation = ['Honda','OD', 'BMW']
+//   for(const company of favouriteTransportation){
+//      if(company.includes('OD'))
+//       console.log(`I Love ${company} car`);
+      
+//   }
+ 
+ 
 
 
 
